@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latest Gaming Hardware</title>
+		<style type="text/css">
+			header, section, footer, aside, nav, article, figure, figcaption {
+                display: block;
+            }
+			body {
+				color: #666666;
+				background-color: #eeeeee;
+				background-image: url("/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/dark-wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+                margin: 0px;
+            }
+			.wrapper {
+                width: 940px;
+                height: 130px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+                
+            }
+            #header {
+                width: 100%;
+                background-color: #00000070;
+                height: 80px;
+                margin-top: 30px;
+            }
+            #nav { 
+                width: 588px; 
+                float: right; 
+                margin-top: 19px; 
+            }
+            #logo a { 
+                color: #fff; 
+                text-decoration: none; 
+                float: left; 
+                font-size: 30px; 
+                margin-top: 28px; 
+                color: #fff; 
+                font-family: "Wellfleet"; 
+                font-weight: bold;
+                padding-left: 38px; 
+            }
+            #nav ul {
+                list-style: none;
+                display: inline;
+                margin: 0px auto;
+            }
+            #nav li {
+                margin-top: 10px;
+                float: left;
+                padding-left: 25px;
+            }
+            #nav li a { 
+                color: #fff; 
+                opacity: 1; 
+                font-size: 16px; 
+                text-decoration: none; 
+                font-family: "Wellfleet"; 
+            }
+            #nav li a.active { 
+                color: #fff; 
+                opacity: 1; 
+                border-bottom: 2px solid #fff; 
+            }
+            #nav li a:hover { 
+                color: #fff; 
+                opacity: .8; 
+            }
+			header {
+				height: 160px;
+                margin-top: 500px;
+            }
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			
+			section.courses {
+                float: left;
+                width: 680px;
+                margin-left: 245px;
+                background-color: #eeeeee;
+                border-right: 1px solid #c9c8c8;
+                
+            }
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #c9c8c8;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+                padding: 0px 0px 0px 25px;
+                background-color: #eeeeee;
+            }
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #c9c8c8;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #eeeeee;}
+			a {
+				color: #de6581;
+                text-decoration: none;}
+            .contact-details {
+                height: 247px;
+            }
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+            #copyright { 
+                color: #fff; 
+                font-family: "Wellfleet"; 
+                font-size: 14px; 
+                margin-top: 650px;             
+                text-align: center;                     
+                width: 100%;
+                background-color: #00000070;
+                height: 30px;
+                padding-top: 10px;
+                }
+            #copyright a { 
+                text-decoration: none; 
+                color: #fff; 
+                }
+        </style>
+         <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+         <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+            <header id="header">
+                    <div>
+                        <div id="logo"><a href=""> Jason Rose </a></div>
+                            <nav id="nav">
+                                <ul>
+                                    <li><a href="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/index2.html"  title="Home" >Home</a></li>
+                                    <li><a href="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/hardware.html" class="active" title="Hardware">Hardware</a></li>
+                                    <li><a href="#slide3" title="Builds">Builds</a></li>
+                                    <li><a href="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/youtube-vids.html" title="Tech Videos">TechRated</a></li>
+                                    <li><a href="#slide5" title="Web Projects">Web Projects</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                </header>
+                <div class="wrapper">
+                        <img src="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/1070-header.png" />
+                </div>
+			<section class="courses">
+                <article>
+					<figure>
+						<img src="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/8700K.png" alt="8700K" />
+						<figcaption>Intel i7-8700K</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Intel Core i7 CPU 8th Generation</h2>
+						<h3>LGA 1151 (300 Series)</h3>
+					</hgroup>
+					<p>The center of my latest gaming PC build is the 8700K. Packing six cores, twelve threads and overclocked to 5.1 GHz, it is a beast! I know future performance may drop due to the "Meltdown" security issue, but it scored <b>1548</b> in multi-core tests on Cinebench R15.</p>
+				</article>    
+				<article>
+					<figure>
+						<img src="/Users/jrose/Documents/HTML and CSS/CSS/Personal Website/heroX.png" alt="Hero X" />
+						<figcaption>ASUS Maximus X Hero</figcaption>
+					</figure>
+					<hgroup>
+						<h2>ASUS Maximus X Hero ROG Motherboard</h2>
+						<h3>Z370 Chipset Socket 1151</h3>
+					</hgroup>
+					<p>ASUS makes the best motherboards that you can buy in my opinion. The Maximus line is always packed with features and produces a great overclock with the AI Suite 3 software. ASUS has perfected RGB lighting with great onboard LEDs, two RGB headers and the Aura software to control all of it.</p>
+				</article>    
+			</section>
+			<aside>
+				<section class="suggested">
+					<h2>Recommended Hardware or Tech</h2>
+					<a href="https://www.logitech.com/en-us/product/mx-master-2s-flow">Logitech MX Master 2S</a>
+					<a href="http://www.corsair.com/en-us/landing/vengeancergb">Corsair Vengeance RGB DDR4</a>
+					<a href="https://www.astrogaming.com/headsets/A50-GEN3.html?psids=3AS52-XOW9W-508%2CMOD-KIT-A50&pid=A50-GEN3">Astro A50 Wireless Headphones</a>
+					<a href="http://www.mophie.com/shop/universal-batteries/powerstation-mini-smartphones-usb-device?a92=12">Mophie Powerstation Mini</a>
+				</section>
+				<section class="contact-details">
+					<h2>Contact</h2>
+					<p>Jason Rose<br />
+						YouTube: TechRated<br />
+						Twitter: @TechRatedJRose<br />
+                        Instagram: @techratedjrose<br />
+                    </p>
+				</section>
+			</aside>	    
+		    </div>    
+        </div>
+    </body>
+    <footer id="copyright">&copy2017 <a href="https://www.youtube.com">Jason Rose - TechRated</a></footer>
+</html>
